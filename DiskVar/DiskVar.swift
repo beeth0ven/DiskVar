@@ -35,11 +35,11 @@ class ViewController: UIViewController {
   "ViewController.history" is the key used in NSUserDefaults which should be unique in the project.
  And the history'value will not be lost even if the app is closed.
  */
-struct DiskVar<VarType> {
-    let key: String
-    let defaultValue: VarType
+public struct DiskVar<VarType> {
+    public let key: String
+    public let defaultValue: VarType
     
-    var rawValue: VarType {
+    public var rawValue: VarType {
         get { return userDefaults.objectForKey(key) as? VarType ?? defaultValue }
         set { userDefaults.setObject(newValue as? AnyObject, forKey: key); userDefaults.synchronize() }
     }
