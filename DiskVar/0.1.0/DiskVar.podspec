@@ -27,7 +27,6 @@ s.homepage = "https://github.com/beeth0ven/DiskVar"
 s.source = { :git => "https://github.com/beeth0ven/DiskVar.git", :tag => "#{s.version}"}
 
 # 7
-s.framework = "UIKit"
 
 # 8
 s.source_files = "DiskVar/**/*.{swift}"
