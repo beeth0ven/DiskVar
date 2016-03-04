@@ -15,18 +15,18 @@ import Foundation
  ```swift
  class ViewController: UIViewController {
  
- private var history = DiskVar<[String]>(key: "ViewController.history", defaultValue: ["cat"])
+    private var history = DiskVar<[String]>(key: "ViewController.history", defaultValue: ["cat"])
  
- override func viewDidLoad() {
- super.viewDidLoad()
+    override func viewDidLoad() {
+        super.viewDidLoad()
  
- // get
- print(history.rawValue)// ["cat"]
+        // get
+        print(history.value)// ["cat"]
  
- // set
- history.rawValue.append("dog")// ["cat", "dog"]
+        // set
+        history.value.append("dog")// ["cat", "dog"]
  
- }
+    }
  
  }
  
