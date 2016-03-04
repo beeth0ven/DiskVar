@@ -24,15 +24,24 @@ Usage:
  }
 
  ```
-  
-  ViewController's Property "history" is a Array of String which has a defaultValue of ["cat"].
+ 
+ ViewController's Property "history" is a Array of String which has a defaultValue of ["cat"].
  "ViewController.history" is the key used in NSUserDefaults which should be unique in the project.
  And the history's value will not be lost even if the app is closed.
  
  
+Installation
+-------
+**For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
+
+```ruby
+
+   pod 'DiskVar', '~> 0.2'
+ 
+```
+
 License
 -------
 
 **DiskVar** is under MIT license. See the [LICENSE](LICENSE) file for more info.
- 
  
