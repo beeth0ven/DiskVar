@@ -3,7 +3,7 @@
  Provide a convenience method to access NSUserDefaults
  
 Usage:
------------
+------
 
  ```swift
  class ViewController: UIViewController {
