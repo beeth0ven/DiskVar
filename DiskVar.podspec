@@ -8,7 +8,7 @@ s.summary = "Provide a convenience method to access NSUserDefaults"
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.2.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
